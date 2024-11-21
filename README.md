@@ -32,10 +32,12 @@ Bem-vindo ao projeto de frontend da Hamburgueria! Este é um projeto simplificad
    git clone <URL-do-repositório>
 
 2. **Instale as Dependências**:
+   ```bash
   cd caminho/do/repositório
   npm install
 
-3. **Execute o Servidor de Desenvolvimento**:
+4. **Execute o Servidor de Desenvolvimento**:
+ ```bash
   ng serve
 
 
