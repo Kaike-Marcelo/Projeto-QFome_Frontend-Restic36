@@ -1,5 +1,9 @@
 # Projeto QFome: Hamburgueria
 
+
+![Imagem inicial da aplicação web](https://github.com/Kaike-Marcelo/Projeto-QFome_Frontend-Restic36/blob/main/Captura%20de%20tela%202024-11-21%20035142.png)
+
+
 ## Descrição
 
 Bem-vindo ao projeto de frontend da Hamburgueria! Este é um projeto simplificado desenvolvido em Angular, com o objetivo de criar uma interface amigável e eficiente para uma hamburgueria. O projeto atualmente permite que os usuários façam pedidos, acessem o cardápio, visualizem as categorias de hambúrgueres, escolham hambúrgueres de uma categoria específica e vejam os detalhes de um hambúrguer em particular.
