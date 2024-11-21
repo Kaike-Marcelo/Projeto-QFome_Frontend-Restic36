@@ -1,0 +1,21 @@
+<app-header></app-header>
+
+<h1 class="container"> DETALHES </h1>
+
+<div *ngIf="product" class="container">
+
+    <div class="container-card">
+        <app-card [title]="product.title" [ingredients]="product.ingredients"></app-card>
+        <h1> R$: {{product.price}} </h1>
+    </div>
+
+
+    <div class="description-box">
+        <h3>Descrição</h3>
+        <p> {{ product.description }} </p>
+    </div>
+
+</div>
+
+<app-button *ngIf="product" class="container" (click)="goToOrder(product.id)" backgroundColor="background-color-primary" label="COMPRAR"
+    width="220px" height="60px"></app-button>

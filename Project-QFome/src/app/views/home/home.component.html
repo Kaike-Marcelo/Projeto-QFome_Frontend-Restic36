@@ -4,9 +4,9 @@
     <app-container-img src="assets/public/images/3_burguers.png" alt="Banner" size="large"></app-container-img>
 
     <div class="container-btn">
-        <app-button backgroundColor="background-color-primary" label="Fazer Pedido" borderColor="red" width="250px"
-            height="60px"></app-button>
-        <app-button backgroundColor="background-color-white" label="Acessar Cardápio" width="250px"
-            height="60px"></app-button>
+        <app-button (click)="goToOrder()" backgroundColor="background-color-primary" label="Fazer Pedido"
+            borderColor="red" width="250px" height="60px"></app-button>
+        <app-button (click)="goToCategories()" backgroundColor="background-color-white" label="Acessar Cardápio"
+            width="250px" height="60px"></app-button>
     </div>
 </div>

@@ -1,11 +1,11 @@
 <app-header></app-header>
 
 <div class="container">
-    <h1>CARDÁPIO</h1>
+    <h1> {{ categoryName }} </h1>
 
     <div class="container-product">
-        <div *ngFor="let category of visibleItems" (click)="goToDetail(category.id)" class="product">
-            <app-card [title]="category.name" [ingredients]="category.ingredients"></app-card>
+        <div *ngFor="let item of visibleItems" (click)="goToProduct(item.id)" class="product">
+            <app-card [title]="item.title" [ingredients]="item.ingredients"></app-card>
         </div>
     </div>
 

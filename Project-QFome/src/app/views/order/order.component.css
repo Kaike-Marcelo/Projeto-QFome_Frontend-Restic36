@@ -1,0 +1,48 @@
+form {
+    width: 50%;
+    padding-top: 3%;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.form-group {
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group div {
+    width: 48%;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+label {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+label span {
+    color: red;
+}
+
+app-button {
+    margin-top: 50px;
+}
