@@ -1,0 +1,15 @@
+/* button.component.css */
+button {
+    padding: 10px;
+    border: 2px solid;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: orange;
+    color: #FFFFFF;
+    border: transparent;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+}

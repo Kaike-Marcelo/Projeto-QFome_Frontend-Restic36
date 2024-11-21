@@ -1,0 +1,22 @@
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.small img {
+    width: 200px;
+    height: auto;
+}
+
+.medium img {
+    width: 100px;
+    height: auto;
+}
+
+.large img {
+    width: 700px;
+    height: auto;
+}

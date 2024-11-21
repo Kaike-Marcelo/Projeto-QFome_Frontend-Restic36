@@ -1,0 +1,20 @@
+.card {
+    width: 300px;
+    height: 350px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h2,
+p {
+    height: 10px;
+}
+
+h2 {
+    color: var(--color-dark-red);
+}
+
+p {
+    flex: 1 1 auto;
+    box-sizing: border-box;
+}

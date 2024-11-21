@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    --color-red-primary: #ED0000;
+    --color-dark-red: #521D16;
+    --color-white: #FFFFFF;
+}
+
+
+h1 {
+    color: var(--color-red-primary)
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.background-color-primary {
+    color: #FFFFFF;
+    background-color: #ED0000;
+}
+
+.background-color-secundary {
+    color: #FFFFFF;
+    background-color: #521D16;
+}
+
+.background-color-white {
+    color: black;
+    background-color: #FFFFFF;
+}
+
+.colorPrimary {
+    color: #ED0000;
+}
+
+.color-secondary,
+a.btn {
+    color: #521D16;
+}
+
+.colorWhite {
+    color: #FFFFFF;
+}
