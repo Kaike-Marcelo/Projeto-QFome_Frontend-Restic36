@@ -33,12 +33,13 @@ Bem-vindo ao projeto de frontend da Hamburgueria! Este é um projeto simplificad
 
 2. **Instale as Dependências**:
    ```bash
-  cd caminho/do/repositório
-  npm install
+   cd caminho/do/repositório
+   npm install
 
 4. **Execute o Servidor de Desenvolvimento**:
- ```bash
-  ng serve
+
+   ```bash
+   ng serve
 
 
 
